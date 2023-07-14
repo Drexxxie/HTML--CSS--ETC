@@ -90,9 +90,23 @@ header {
     right: 30px;
     width: 40px;
     cursor: pointer;
+    display: none;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
 }
 
 @media only screen and (max-width: 850px) {
+   .menu-btn {
+    display: block;
+   }
+   
     .navbar {
         padding: 0;
     }
